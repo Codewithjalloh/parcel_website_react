@@ -1,0 +1,44 @@
+Website Changes Documentation
+===========================
+
+Date: [Current Date]
+
+Navigation Changes:
+-----------------
+1. Removed "Get a Quote" link from the navbar
+2. All "Get Started" and "Get a Quote" buttons now navigate to the contact page
+3. Quote.jsx file is kept in the codebase for future use
+
+Button Updates:
+--------------
+1. Hero Section:
+   - "Get a Quote" button now navigates to /contact
+   
+2. Benefits Section:
+   - "Get Started" button now navigates to /contact
+   
+3. CTA Section (Ready to Ship?):
+   - "Get Started" button now navigates to /contact
+
+File Structure:
+--------------
+- src/pages/Home.jsx: Updated navigation paths
+- src/components/Navbar.jsx: Removed "Get a Quote" link
+- src/pages/Quote.jsx: Kept in codebase but not currently in use
+
+Git Commits:
+-----------
+1. "Update navigation: Remove Get a Quote from navbar, update buttons to navigate to contact page"
+   - Modified: Home.jsx, Navbar.jsx
+   - Changes: Removed navbar link, updated button navigation
+
+2. "Update CTA section: Change Get Started button to navigate to contact page"
+   - Modified: Home.jsx
+   - Changes: Updated CTA section button navigation
+
+Note: The Quote.jsx file is preserved in the codebase for potential future use. All quote-related functionality has been temporarily redirected to the contact page.
+
+To restore the quote functionality in the future:
+1. Re-add the "Get a Quote" link to the navbar
+2. Update button navigation paths back to /quote
+3. Ensure Quote.jsx is properly integrated into the routing system 
