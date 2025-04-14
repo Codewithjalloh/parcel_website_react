@@ -209,7 +209,7 @@ const Home = () => {
             <Button 
               variant="contained" 
               size="large"
-              onClick={() => navigate('/quote')}
+              onClick={() => navigate('/contact')}
               sx={{ 
                 bgcolor: theme.palette.primary.main,
                 color: 'white',
@@ -386,7 +386,7 @@ const Home = () => {
             <Button
               variant="contained"
               size="large"
-              onClick={() => navigate('/quote')}
+              onClick={() => navigate('/contact')}
               sx={{
                 px: 6,
                 py: 1.5,
@@ -397,7 +397,7 @@ const Home = () => {
                 },
               }}
             >
-              Start Shipping Now
+              Get Started
             </Button>
           </Box>
         </Container>

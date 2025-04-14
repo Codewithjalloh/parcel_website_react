@@ -85,21 +85,6 @@ const Navbar = () => {
             <Button 
               color="inherit" 
               component={Link} 
-              to="/quote"
-              sx={{ 
-                mx: 1,
-                '&:hover': { 
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                  transform: 'translateY(-2px)',
-                  transition: 'all 0.3s ease'
-                }
-              }}
-            >
-              Get a Quote
-            </Button>
-            <Button 
-              color="inherit" 
-              component={Link} 
               to="/contact"
               sx={{ 
                 mx: 1,
