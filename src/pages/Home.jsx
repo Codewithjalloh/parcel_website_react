@@ -608,7 +608,7 @@ const Home = () => {
               <Button
                 variant="contained"
                 size="large"
-                onClick={() => navigate('/quote')}
+                onClick={() => navigate('/contact')}
                 sx={{
                   px: 6,
                   py: 1.5,
