@@ -56,19 +56,19 @@ const Contact = () => {
     {
       icon: <EmailIcon />,
       title: 'Email',
-      content: 'support@parcelstarlimited.com',
-      link: 'mailto:support@parcelstarlimited.com'
+      content: 'contact@parcelstarlogistics.com',
+      link: 'mailto:contact@parcelstarlogistics.com'
     },
     {
       icon: <PhoneIcon />,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      content: '+4407555527859',
+      link: 'tel:+4407555527859'
     },
     {
       icon: <LocationOnIcon />,
       title: 'Address',
-      content: '123 Delivery Street, New York, NY 10001',
+      content: '214 Old Road East, Gravesend, DA12 1PQ',
       link: 'https://maps.google.com'
     },
     {

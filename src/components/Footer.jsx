@@ -20,7 +20,7 @@ const Footer = () => {
         <Grid container spacing={4}>
           <Grid item xs={12} sm={6} md={3}>
             <Typography variant="h6" gutterBottom>
-              ParcelStar Limited
+              ParcelStar Logistics
             </Typography>
             <Typography variant="body2" sx={{ mb: 2 }}>
               Fast, reliable, and secure delivery services for all your shipping needs.
@@ -49,8 +49,8 @@ const Footer = () => {
               <Link component={RouterLink} to="/" color="inherit" underline="hover">
                 Home
               </Link>
-              <Link component={RouterLink} to="/quote" color="inherit" underline="hover">
-                Get a Quote
+              <Link component={RouterLink} to="/about" color="inherit" underline="hover">
+                About
               </Link>
               <Link component={RouterLink} to="/services" color="inherit" underline="hover">
                 Services
@@ -63,46 +63,26 @@ const Footer = () => {
 
           <Grid item xs={12} sm={6} md={3}>
             <Typography variant="h6" gutterBottom>
-              Services
-            </Typography>
-            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-              <Link component={RouterLink} to="/services" color="inherit" underline="hover">
-                Standard Delivery
-              </Link>
-              <Link component={RouterLink} to="/services" color="inherit" underline="hover">
-                Express Delivery
-              </Link>
-              <Link component={RouterLink} to="/services" color="inherit" underline="hover">
-                Same Day Delivery
-              </Link>
-              <Link component={RouterLink} to="/services" color="inherit" underline="hover">
-                International Shipping
-              </Link>
-            </Box>
-          </Grid>
-
-          <Grid item xs={12} sm={6} md={3}>
-            <Typography variant="h6" gutterBottom>
               Contact Us
             </Typography>
             <Typography variant="body2" sx={{ mb: 1 }}>
-              123 Delivery Street
+              214 Old Road East
             </Typography>
             <Typography variant="body2" sx={{ mb: 1 }}>
-              New York, NY 10001
+              Gravesend, DA12 1PQ
             </Typography>
             <Typography variant="body2" sx={{ mb: 1 }}>
-              Phone: +1 (555) 123-4567
+              Phone: +4407555527859
             </Typography>
             <Typography variant="body2">
-              Email: support@parcelstarlimited.com
+              Email: contact@parcelstarlogistics.com
             </Typography>
           </Grid>
         </Grid>
 
         <Box sx={{ mt: 4, pt: 2, borderTop: 1, borderColor: 'rgba(0, 0, 0, 0.1)' }}>
           <Typography variant="body2" align="center">
-            © {new Date().getFullYear()} ParcelStar Limited. All rights reserved.
+            © {new Date().getFullYear()} ParcelStar Logistics. All rights reserved.
           </Typography>
         </Box>
       </Container>

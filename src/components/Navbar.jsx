@@ -1,9 +1,12 @@
 import { AppBar, Toolbar, Typography, Button, Box, Container } from '@mui/material';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import { Link } from 'react-router-dom';
+import logo from '../assets/images/logo.png';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <AppBar 
       position="static" 
@@ -18,20 +21,19 @@ const Navbar = () => {
       <Container maxWidth="lg">
         <Toolbar disableGutters sx={{ minHeight: '30px', py: 0 }}>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-            <LocalShippingIcon sx={{ color: '#FFD700', fontSize: '1.2rem' }} />
-            <Typography
-              variant="h6"
-              component={RouterLink}
-              to="/"
-              sx={{
-                textDecoration: 'none',
-                color: 'inherit',
-                fontWeight: 700,
-                fontSize: '1rem',
+            <Box 
+              component="img"
+              src={logo}
+              alt="ParcelStar Logistics"
+              sx={{ 
+                height: 70,
+                cursor: 'pointer',
+                '&:hover': {
+                  opacity: 0.9,
+                }
               }}
-            >
-              ParcelStar Limited
-            </Typography>
+              onClick={() => navigate('/')}
+            />
           </Box>
 
           <Box sx={{ flexGrow: 1 }} />

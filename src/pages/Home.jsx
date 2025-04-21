@@ -192,7 +192,7 @@ const Home = () => {
                 textShadow: '2px 2px 4px rgba(0,0,0,0.3)',
               }}
             >
-              Fast & Reliable Package Delivery
+              Fast & Reliable Logistic Services
             </Typography>
             <Typography 
               variant="h5"
@@ -204,7 +204,7 @@ const Home = () => {
                 textShadow: '1px 1px 2px rgba(0,0,0,0.3)',
               }}
             >
-              Experience seamless delivery services with ParcelStar Limited. We deliver your packages with care and precision.
+              Experience seamless delivery services with ParcelStar Logistics. We deliver your packages with care and precision.
             </Typography>
             <Button 
               variant="contained" 
@@ -601,7 +601,7 @@ const Home = () => {
                 Ready to Ship?
               </Typography>
               <Typography variant="h6" sx={{ opacity: 0.9 }}>
-                Get started with ParcelStar today and experience the difference in delivery services.
+                Get started with ParcelStar Logistics today and experience the difference in delivery services.
               </Typography>
             </Grid>
             <Grid item xs={12} md={4} sx={{ textAlign: { xs: 'center', md: 'right' } }}>

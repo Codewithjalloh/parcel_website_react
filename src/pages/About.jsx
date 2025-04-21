@@ -87,7 +87,7 @@ const About = () => {
           <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
             Founded in 2013, we started as a small local delivery service with a vision to transform the logistics industry. 
             Today, we've grown into a trusted name in delivery and logistics, serving thousands of customers across the region. 
-            Our commitment to excellence and customer satisfaction has been the driving force behind our success.
+            Our commitment to excellence and customer satisfaction has been the driving force behind our success at ParcelStar Logistics.
           </Typography>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={4}>
